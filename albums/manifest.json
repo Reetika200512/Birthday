@@ -1,0 +1,194 @@
+[
+    {
+        "id":  "birthday-diaries",
+        "title":  "Birthday Diaries",
+        "cover":  "/albums/Birthday%20Diaries/WhatsApp%20Image%202026-03-05%20at%209.47.31%20PM.jpeg",
+        "photos":  [
+                       {
+                           "src":  "/albums/Birthday%20Diaries/WhatsApp%20Image%202026-03-05%20at%209.47.31%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.47.31 PM"
+                       },
+                       {
+                           "src":  "/albums/Birthday%20Diaries/WhatsApp%20Image%202026-03-05%20at%209.47.37%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.47.37 PM"
+                       },
+                       {
+                           "src":  "/albums/Birthday%20Diaries/WhatsApp%20Image%202026-03-05%20at%209.49.51%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.49.51 PM"
+                       },
+                       {
+                           "src":  "/albums/Birthday%20Diaries/WhatsApp%20Image%202026-03-05%20at%209.49.57%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.49.57 PM"
+                       },
+                       {
+                           "src":  "/albums/Birthday%20Diaries/WhatsApp%20Image%202026-03-05%20at%209.49.58%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.49.58 PM"
+                       }
+                   ],
+        "song":  "/albums/Birthday%20Diaries/birthday%20diaries.mpeg"
+    },
+    {
+        "id":  "clown-energy",
+        "title":  "Clown Energy",
+        "cover":  "/albums/Clown%20Energy/WhatsApp%20Image%202026-03-05%20at%209.45.42%20PM.jpeg",
+        "photos":  [
+                       {
+                           "src":  "/albums/Clown%20Energy/WhatsApp%20Image%202026-03-05%20at%209.45.42%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.45.42 PM"
+                       },
+                       {
+                           "src":  "/albums/Clown%20Energy/WhatsApp%20Image%202026-03-05%20at%209.45.44%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.45.44 PM"
+                       },
+                       {
+                           "src":  "/albums/Clown%20Energy/WhatsApp%20Image%202026-03-05%20at%209.45.45%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.45.45 PM"
+                       },
+                       {
+                           "src":  "/albums/Clown%20Energy/WhatsApp%20Image%202026-03-05%20at%209.46.04%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.46.04 PM"
+                       },
+                       {
+                           "src":  "/albums/Clown%20Energy/WhatsApp%20Image%202026-03-05%20at%209.46.08%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.46.08 PM"
+                       }
+                   ],
+        "song":  "/albums/Clown%20Energy/WhatsApp%20Audio%202026-03-06%20at%201.26.09%20AM.mpeg"
+    },
+    {
+        "id":  "happy-moments",
+        "title":  "Happy Moments",
+        "cover":  "/albums/Happy%20Moments/WhatsApp%20Image%202026-03-05%20at%209.25.41%20PM.jpeg",
+        "photos":  [
+                       {
+                           "src":  "/albums/Happy%20Moments/WhatsApp%20Image%202026-03-05%20at%209.25.41%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.41 PM"
+                       },
+                       {
+                           "src":  "/albums/Happy%20Moments/WhatsApp%20Image%202026-03-05%20at%209.25.47%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.47 PM"
+                       },
+                       {
+                           "src":  "/albums/Happy%20Moments/WhatsApp%20Image%202026-03-05%20at%209.25.55%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.55 PM"
+                       },
+                       {
+                           "src":  "/albums/Happy%20Moments/WhatsApp%20Image%202026-03-05%20at%209.25.57%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.57 PM"
+                       },
+                       {
+                           "src":  "/albums/Happy%20Moments/WhatsApp%20Image%202026-03-05%20at%209.27.48%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.27.48 PM"
+                       }
+                   ],
+        "song":  "/albums/Happy%20Moments/WhatsApp%20Audio%202026-03-06%20at%201.10.53%20AM.mpeg"
+    },
+    {
+        "id":  "insanity-in-stereo",
+        "title":  "Insanity in Stereo",
+        "cover":  "/albums/Insanity%20in%20Stereo/WhatsApp%20Image%202026-03-05%20at%209.20.17%20PM.jpeg",
+        "photos":  [
+                       {
+                           "src":  "/albums/Insanity%20in%20Stereo/WhatsApp%20Image%202026-03-05%20at%209.20.17%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.20.17 PM"
+                       },
+                       {
+                           "src":  "/albums/Insanity%20in%20Stereo/WhatsApp%20Image%202026-03-05%20at%209.25.56%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.56 PM"
+                       },
+                       {
+                           "src":  "/albums/Insanity%20in%20Stereo/WhatsApp%20Image%202026-03-05%20at%209.25.57%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.57 PM"
+                       },
+                       {
+                           "src":  "/albums/Insanity%20in%20Stereo/WhatsApp%20Image%202026-03-05%20at%209.28.04%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.28.04 PM"
+                       },
+                       {
+                           "src":  "/albums/Insanity%20in%20Stereo/WhatsApp%20Image%202026-03-05%20at%209.45.42%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.45.42 PM"
+                       }
+                   ],
+        "song":  "/albums/Insanity%20in%20Stereo/WhatsApp%20Audio%202026-03-06%20at%201.05.53%20AM.mpeg"
+    },
+    {
+        "id":  "sexy-goddess",
+        "title":  "Sexy Goddess",
+        "cover":  "/albums/Sexy%20Goddess/WhatsApp%20Image%202026-03-05%20at%2010.52.30%20PM.jpeg",
+        "photos":  [
+                       {
+                           "src":  "/albums/Sexy%20Goddess/WhatsApp%20Image%202026-03-05%20at%2010.52.30%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 10.52.30 PM"
+                       },
+                       {
+                           "src":  "/albums/Sexy%20Goddess/WhatsApp%20Image%202026-03-05%20at%2010.52.31%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 10.52.31 PM"
+                       },
+                       {
+                           "src":  "/albums/Sexy%20Goddess/WhatsApp%20Image%202026-03-05%20at%2012.11.04%20AM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 12.11.04 AM"
+                       },
+                       {
+                           "src":  "/albums/Sexy%20Goddess/WhatsApp%20Image%202026-03-05%20at%209.27.18%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.27.18 PM"
+                       },
+                       {
+                           "src":  "/albums/Sexy%20Goddess/WhatsApp%20Image%202026-03-05%20at%209.27.31%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.27.31 PM"
+                       }
+                   ],
+        "song":  "/albums/Sexy%20Goddess/sexy%20goddess.mpeg"
+    },
+    {
+        "id":  "unfiltered-myhem",
+        "title":  "Unfiltered Myhem",
+        "cover":  "/albums/Unfiltered%20Myhem/WhatsApp%20Image%202026-03-05%20at%209.25.52%20PM.jpeg",
+        "photos":  [
+                       {
+                           "src":  "/albums/Unfiltered%20Myhem/WhatsApp%20Image%202026-03-05%20at%209.25.52%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.52 PM"
+                       },
+                       {
+                           "src":  "/albums/Unfiltered%20Myhem/WhatsApp%20Image%202026-03-05%20at%209.25.56%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.56 PM"
+                       },
+                       {
+                           "src":  "/albums/Unfiltered%20Myhem/WhatsApp%20Image%202026-03-05%20at%209.26.56%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.26.56 PM"
+                       },
+                       {
+                           "src":  "/albums/Unfiltered%20Myhem/WhatsApp%20Image%202026-03-05%20at%209.27.08%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.27.08 PM"
+                       }
+                   ],
+        "song":  "/albums/Unfiltered%20Myhem/WhatsApp%20Audio%202026-03-06%20at%201.22.55%20AM.mpeg"
+    },
+    {
+        "id":  "us-moments",
+        "title":  "Us moments",
+        "cover":  "/albums/Us%20moments/WhatsApp%20Image%202026-03-05%20at%209.21.11%20PM.jpeg",
+        "photos":  [
+                       {
+                           "src":  "/albums/Us%20moments/WhatsApp%20Image%202026-03-05%20at%209.21.11%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.21.11 PM"
+                       },
+                       {
+                           "src":  "/albums/Us%20moments/WhatsApp%20Image%202026-03-05%20at%209.22.34%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.22.34 PM"
+                       },
+                       {
+                           "src":  "/albums/Us%20moments/WhatsApp%20Image%202026-03-05%20at%209.25.47%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.47 PM"
+                       },
+                       {
+                           "src":  "/albums/Us%20moments/WhatsApp%20Image%202026-03-05%20at%209.25.55%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.55 PM"
+                       },
+                       {
+                           "src":  "/albums/Us%20moments/WhatsApp%20Image%202026-03-05%20at%209.25.56%20PM.jpeg",
+                           "caption":  "WhatsApp Image 2026-03-05 at 9.25.56 PM"
+                       }
+                   ],
+        "song":  "/albums/Us%20moments/us.mpeg"
+    }
+]
