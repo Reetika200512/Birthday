@@ -1,4 +1,4 @@
-# 🎉 Spiti's Birthday Celebration Website
+# 🎉 Reetika's Birthday Celebration Website
 
 A fully immersive, interactive 3D birthday celebration website built for a special birthday surprise! 🎂✨
 
@@ -288,7 +288,11 @@ For any issues or customizations needed, refer to the component files - they're 
 
 This website was created with passion to make a special birthday surprise. Every animation, effect, and interaction was carefully crafted to bring joy and create unforgettable memories.
 
-**Happy Birthday Spiti!** 🎂✨🎉
+**Happy Birthday!** 🎂✨🎉
+
+## 👥 Contributors
+
+- **Reetika** - Creator, Developer, and Designer
 
 ---
 
