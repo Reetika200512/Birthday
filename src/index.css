@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Montserrat:wght@400;600;700&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-poppins;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-montserrat;
+  }
+
+  .script-font {
+    font-family: 'Pacifico', cursive;
+  }
+}
+
+@layer components {
+  /* Buttons */
+  .confirm-btn {
+    @apply px-5 py-3 sm:px-8 sm:py-4 bg-pink-500 hover:bg-pink-600 text-white text-base sm:text-lg font-bold rounded-full shadow-lg transform hover:scale-105 transition;
+  }
+
+  .nav-btn {
+    @apply px-6 py-3 bg-yellow-500 hover:bg-yellow-600 text-white font-bold rounded-lg transition;
+  }
+
+  /* Flip Card */
+  .flip-card {
+    @apply bg-transparent w-60 h-72 cursor-pointer;
+    perspective: 1000px;
+  }
+
+  .flip-card-inner {
+    @apply relative w-full h-full text-center;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+  }
+
+  .flip-card.flipped .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-front,
+  .flip-card-back {
+    @apply absolute w-full h-full rounded-2xl shadow-lg;
+    backface-visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flip-card-front {
+    @apply bg-gradient-to-br from-primary to-secondary text-white text-5xl;
+  }
+
+  .flip-card-back {
+    @apply bg-white;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card-back img {
+    @apply w-full h-full object-cover rounded-2xl;
+  }
+
+  /* Animations */
+  .float-animation {
+    animation: float 3s ease-in-out infinite;
+  }
+
+  .glow-text {
+    text-shadow: 0 0 20px rgba(255, 107, 157, 0.8);
+    animation: glow 2s ease-in-out infinite;
+  }
+
+  /* Sparkle Effect */
+  .sparkle {
+    position: fixed;
+    pointer-events: none;
+    font-size: 20px;
+  }
+
+  /* Floating Hearts */
+  .floating-heart {
+    position: fixed;
+    pointer-events: none;
+    font-size: 24px;
+    animation: rise 3s ease-out forwards;
+  }
+
+  /* Polaroid Card */
+  .polaroid {
+    @apply bg-white rounded-sm shadow-2xl transform hover:scale-105 transition;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    aspect-ratio: 0.8;
+  }
+
+  /* Lightbox */
+  .lightbox-overlay {
+    @apply fixed inset-0 bg-black/80 flex items-center justify-center z-50;
+    backdrop-filter: blur(4px);
+  }
+
+  .lightbox-content {
+    @apply relative max-w-4xl max-h-screen object-contain;
+  }
+
+  /* Gift Box */
+  .gift-box {
+    @apply cursor-pointer transition-transform duration-300;
+  }
+
+  .gift-box:hover {
+    @apply scale-110;
+  }
+
+  .gift-box-open {
+    animation: box-open 0.6s ease-out;
+  }
+
+  /* Canvas elements */
+  .particle {
+    position: fixed;
+    pointer-events: none;
+  }
+
+  .confetti {
+    animation: rise 3s ease-out forwards;
+  }
+
+  /* Gradient Background Animation */
+  .gradient-bg {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+  }
+
+  /* Glowing Effect */
+  .glow-effect {
+    box-shadow: 0 0 20px rgba(255, 107, 157, 0.6);
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+}
+
+/* Keyframe Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes glow {
+  0%, 100% {
+    text-shadow: 0 0 20px rgba(255, 107, 157, 0.8);
+  }
+  50% {
+    text-shadow: 0 0 40px rgba(255, 107, 157, 1);
+  }
+}
+
+@keyframes rise {
+  0% {
+    opacity: 1;
+    transform: translateY(0) translateX(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100vh) translateX(100px) scale(0);
+  }
+}
+
+@keyframes gradient-shift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(255, 107, 157, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(255, 107, 157, 0.8);
+  }
+}
+
+@keyframes box-open {
+  0% {
+    transform: scale(1) rotateY(0deg);
+  }
+  50% {
+    transform: scale(1.1) rotateY(180deg);
+  }
+  100% {
+    transform: scale(1) rotateY(0deg);
+  }
+}
+
+@keyframes typewriter {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes blink-cursor {
+  0%, 49% {
+    border-right-color: white;
+  }
+  50%, 100% {
+    border-right-color: transparent;
+  }
+}
+
+/* Typewriter Effect */
+.typewriter {
+  overflow: hidden;
+  border-right: 3px solid white;
+  animation: typewriter 5s steps(40, end), blink-cursor 0.75s step-end infinite;
+  white-space: nowrap;
+}
+
+/* Masonry Grid */
+.masonry-grid {
+  column-count: 3;
+  column-gap: 2rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .masonry-grid {
+    column-count: 2;
+  }
+}
+
+@media (max-width: 640px) {
+  .masonry-grid {
+    column-count: 1;
+  }
+}
+
+.masonry-item {
+  break-inside: avoid;
+  margin-bottom: 2rem;
+}

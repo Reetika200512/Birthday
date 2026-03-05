@@ -1,25 +1,41 @@
 {
-  "name": "birthday",
-  "version": "1.0.0",
-  "description": "Birthday greetings..",
-  "main": " ",
+  "name": "spiti-birthday",
+  "version": "2.0.0",
+  "description": "Immersive Interactive Birthday Celebration Website for Spiti",
+  "main": "index.js",
   "scripts": {
-    "server-node": "http-server -p 8081"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ayusharma/birthday.git"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "keywords": [
-    "Birthday"
+    "birthday",
+    "react",
+    "tailwind",
+    "three.js",
+    "3d",
+    "animations"
   ],
-  "author": "Ayush Sharma",
-  "license": "WTFPL",
-  "bugs": {
-    "url": "https://github.com/ayusharma/birthday/issues"
-  },
-  "homepage": "https://github.com/ayusharma/birthday#readme",
+  "author": "Reeti",
+  "license": "MIT",
   "dependencies": {
-    "http-server": "^0.11.1"
+    "@react-three/drei": "^9.88.3",
+    "@react-three/fiber": "^8.14.2",
+    "canvas-confetti": "^1.9.0",
+    "framer-motion": "^10.16.4",
+    "lenis": "^1.1.9",
+    "lucide-react": "^0.263.1",
+    "react": "^18.2.0",
+    "react-confetti": "^6.1.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.30.1",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9"
   }
 }
