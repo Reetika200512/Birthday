@@ -201,8 +201,11 @@ vercel
 ```
 
 ### Using GitHub Pages
-1. Build: `npm run build`
-2. Deploy `dist` folder to GitHub Pages
+1. Push code to `main` (this repo includes a GitHub Actions Pages workflow).
+2. In GitHub repo settings:
+   - Go to `Settings -> Pages`
+   - Set source to `GitHub Actions`
+3. Open `Actions` tab and confirm `Deploy To GitHub Pages` passed.
 
 ### Using Netlify
 ```bash
