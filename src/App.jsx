@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Confetti from 'react-confetti'
 import confetti from 'canvas-confetti'
 import { motion } from 'framer-motion'
-import { BrowserRouter, Navigate, Route, Routes, useNavigate, useParams } from 'react-router-dom'
+import { HashRouter, Navigate, Route, Routes, useNavigate, useParams } from 'react-router-dom'
 import Cake3D from './components/Cake3D'
 import BalloonAnimation from './components/BalloonAnimation'
 import BackgroundEffects from './components/BackgroundEffects'
@@ -244,7 +244,7 @@ function App() {
   }
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<Navigate to="/lights" replace />} />
         <Route
@@ -262,7 +262,7 @@ function App() {
         />
         <Route path="*" element={<Navigate to="/lights" replace />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
