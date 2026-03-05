@@ -3,6 +3,12 @@ import { AnimatePresence, motion } from 'framer-motion'
 import { ChevronLeft, ChevronRight, Pause, Play, Volume2, VolumeX, X } from 'lucide-react'
 
 function AlbumSlideshow({ onAlbumPlaybackChange }) {
+  const baseUrl = import.meta.env.BASE_URL
+  const withBase = (assetPath = '') => {
+    const cleanPath = assetPath.startsWith('/') ? assetPath.slice(1) : assetPath
+    return `${baseUrl}${cleanPath}`
+  }
+
   const [albums, setAlbums] = useState([])
   const [loading, setLoading] = useState(true)
   const [activeAlbum, setActiveAlbum] = useState(null)
@@ -27,13 +33,16 @@ function AlbumSlideshow({ onAlbumPlaybackChange }) {
 
     const loadAlbums = async () => {
       try {
-        const response = await fetch('/albums/manifest.json')
+        const response = await fetch(withBase('albums/manifest.json'))
         const data = await response.json()
         const formattedAlbums = Array.isArray(data)
           ? data.map((album) => ({
               ...album,
+              cover: withBase(album.cover),
+              song: album.song ? withBase(album.song) : '',
               photos: (album.photos ?? []).map((photo, idx) => ({
                 ...photo,
+                src: withBase(photo.src),
                 caption: `${messageBank[idx % messageBank.length]} ${album.title} edition.`,
               })),
             }))

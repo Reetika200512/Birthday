@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 function Cake3D({ onCelebrateCake, candlesBlown, cakeEffectTick }) {
   const [showSparkBurst, setShowSparkBurst] = useState(false)
   const [showSmoke, setShowSmoke] = useState(false)
+  const cakeImageSrc = `${import.meta.env.BASE_URL}cake-reference.jpeg`
 
   useEffect(() => {
     if (!cakeEffectTick) return
@@ -27,7 +28,7 @@ function Cake3D({ onCelebrateCake, candlesBlown, cakeEffectTick }) {
         className="relative rounded-3xl overflow-hidden border-4 border-rose-200 shadow-[0_20px_70px_rgba(236,72,153,0.35)] bg-black/40"
       >
         <img
-          src="/cake-reference.jpeg"
+          src={cakeImageSrc}
           alt="Birthday cake with candles"
           className="w-[360px] sm:w-[460px] md:w-[560px] h-auto object-cover"
         />

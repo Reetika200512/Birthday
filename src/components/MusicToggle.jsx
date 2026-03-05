@@ -8,7 +8,7 @@ function MusicToggle({ shouldPlay = false }) {
 
   useEffect(() => {
     if (!audioRef.current) return
-    audioRef.current.src = '/hbd.mp3'
+    audioRef.current.src = `${import.meta.env.BASE_URL}hbd.mp3`
     audioRef.current.loop = true
   }, [])
 

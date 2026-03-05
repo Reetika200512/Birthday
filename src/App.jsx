@@ -33,6 +33,7 @@ function JourneyPage({
   candlesBlown,
   cakeEffectTick,
 }) {
+  const candleVideoSrc = `${import.meta.env.BASE_URL}candle-blowing.mp4`
   const navigate = useNavigate()
   const { stage } = useParams()
   const [albumAudioActive, setAlbumAudioActive] = useState(false)
@@ -169,7 +170,7 @@ function JourneyPage({
             celebrate={celebrate}
             candlesBlown={candlesBlown}
             onBlowCandles={handleBlowCandles}
-            candleVideoSrc="/candle-blowing.mp4"
+            candleVideoSrc={candleVideoSrc}
           />
         </div>
       )}

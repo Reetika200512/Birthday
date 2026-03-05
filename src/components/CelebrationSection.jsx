@@ -1,6 +1,9 @@
 import { motion, AnimatePresence } from 'framer-motion'
 
-function CelebrationSection({ celebrate, onBlowCandles, candlesBlown, candleVideoSrc = '/candle-blowing.mp4' }) {
+function CelebrationSection({ celebrate, onBlowCandles, candlesBlown, candleVideoSrc }) {
+  const resolvedCandleVideoSrc = candleVideoSrc || `${import.meta.env.BASE_URL}candle-blowing.mp4`
+  const cakeImageSrc = `${import.meta.env.BASE_URL}cake-reference.jpeg`
+
   return (
     <section className="py-20 bg-gradient-to-b from-pink-200 via-purple-200 to-blue-200 relative overflow-hidden flex items-center justify-center min-h-screen">
       <div className="text-center space-y-8 relative z-10">
@@ -11,7 +14,7 @@ function CelebrationSection({ celebrate, onBlowCandles, candlesBlown, candleVide
           transition={{ duration: 3.2, repeat: Infinity, ease: 'easeInOut' }}
         >
           <img
-            src="/cake-reference.jpeg"
+            src={cakeImageSrc}
             alt="Birthday cake"
             className="w-[280px] sm:w-[360px] md:w-[430px] h-auto object-cover"
           />
@@ -60,7 +63,7 @@ function CelebrationSection({ celebrate, onBlowCandles, candlesBlown, candleVide
               <>
                 <motion.video
                   className="absolute inset-0 w-full h-full object-cover"
-                  src={candleVideoSrc}
+                  src={resolvedCandleVideoSrc}
                   autoPlay
                   muted
                   playsInline
